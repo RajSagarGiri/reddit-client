@@ -1,7 +1,8 @@
-.header{
-    display: flex;
+.head{
+   display: flex;
    align-items: center;
    margin: 0 auto;
+   justify-content: center;
 }
 
 
@@ -11,19 +12,9 @@ img{
 }
 
 
-.tab{
-    margin-left: 200px;
-}
-
-a{
-    margin-right: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none !important;
-    color: black;
-    font-size: 20px;
-}
-
-hr{
-    height: 1px;
-    color: black;
+input{
+    font-size: 22px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-image: url('../images/search.png');
 }
