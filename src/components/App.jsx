@@ -7,7 +7,7 @@ class App extends Component {
 
   constructor(){
     super();
-    this.state={stories:[]}
+    this.state={stories:[], keyword:null}
   }
 
   action = async (event) => {
@@ -16,7 +16,7 @@ class App extends Component {
     const api = await fetch(`http://www.reddit.com/search.json?q=${key}`);
     const get = await api.json();
     const data = await get.data.children.map(data => data.data)
-    this.setState({stories : data})
+    this.setState({stories : data, keyword:key})
     console.log(this.state.stories[2])
   }
 

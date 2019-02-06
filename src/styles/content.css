@@ -1,10 +1,22 @@
-.main{
-    background-color: aliceblue;
-    border: 1px solid black;
-
+span>img{
+    height: 10px;
+    width: 10px;
+    float: left;
 }
 
-td>img{
-    height: 15px;
-    width:  15px;
+td>span{
+    font-size: 13.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none !important;
+    color: grey;
+}
+
+.ref{
+    color: black;
+   font-weight: bolder;
+   font-size: 12px;
 }

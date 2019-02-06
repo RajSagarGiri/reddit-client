@@ -2,7 +2,6 @@
    display: flex;
    align-items: center;
    margin: 0 auto;
-   width: auto;
 }
 
 img{
@@ -16,5 +15,4 @@ input{
     padding: 7px;
     border: 2px solid red;
     border-radius: 5px;
-    background-image: url('../images/search.png');
 }
