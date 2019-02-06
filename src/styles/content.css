@@ -1,0 +1,10 @@
+.main{
+    background-color: aliceblue;
+    border: 1px solid black;
+
+}
+
+td>img{
+    height: 15px;
+    width:  15px;
+}

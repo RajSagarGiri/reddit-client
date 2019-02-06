@@ -17,7 +17,7 @@ class App extends Component {
     const get = await api.json();
     const data = await get.data.children.map(data => data.data)
     this.setState({stories : data})
-    console.log(this.state.stories[1])
+    console.log(this.state.stories[2])
   }
 
   render() {
@@ -25,8 +25,12 @@ class App extends Component {
     return (
       <div >
         <Header action={this.action}/>
-        {this.state.stories.length &&<div className='contents'>
-          {val}
+        {this.state.stories.length>0 &&<div className='contents'>
+         <table>
+           <tbody>
+         {val}
+         </tbody>
+         </table>
         </div>}
       </div>
     );
