@@ -25,8 +25,8 @@ class App extends Component {
     return (
       <div >
         <Header action={this.action}/>
-        {this.state.stories.length>0 &&<div className='contents'>
-         <table>
+        {this.state.stories.length>0 &&<div style={{backgroundColor:'#E0E0E0'}}>
+         <table className='contents'>
            <tbody>
          {val}
          </tbody>
