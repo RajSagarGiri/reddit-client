@@ -1,13 +1,14 @@
-span>img{
-    height: 10px;
-    width: 10px;
-    float: left;
+div{
+    margin: 5px 0 5px 0;
+}
+.content{
+    padding: 20px ;
+    border: 1px solid black;
+    height: 70px;
 }
 
-td>span{
-    font-size: 13.5px;
-    display: flex;
-    flex-direction: column;
+span{
+    float: right;
 }
 
 a{
@@ -15,8 +16,28 @@ a{
     color: grey;
 }
 
-.ref{
-    color: black;
-   font-weight: bolder;
+.ref, .ref>a{
    font-size: 12px;
+   color: black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title>a{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.bottom{
+    font-size: 13px;
+}
+
+.bottom, .bottom>span{
+    display: flex;
+}
+
+.bottom>span>img{
+    float: right;
+    height: 18px;
 }

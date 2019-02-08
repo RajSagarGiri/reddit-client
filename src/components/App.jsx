@@ -25,13 +25,9 @@ class App extends Component {
     return (
       <div >
         <Header action={this.action}/>
-        {this.state.stories.length>0 &&<div style={{backgroundColor:'#E0E0E0'}}>
-         <table className='contents'>
-           <tbody>
+        {this.state.stories.length>0 &&<div style={{margin:'0 100px 0  100px'}}>
          {val}
-         </tbody>
-         </table>
-        </div>}
+         </div>}
       </div>
     );
   }
