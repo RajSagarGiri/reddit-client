@@ -1,20 +1,17 @@
-div{
-    margin: 5px 0 5px 0;
-}
+
 .content{
-    padding: 20px ;
-    border: 1px solid black;
-    height: 70px;
+    margin:  7.5px 0 7.5px 0 ;
+    padding: 30px ;
+    border:  0.01px solid silver;
+    height: 140px;
+    background-color: white;
 }
 
-span{
-    float: right;
+.content:hover{
+    border: 1px solid red;
 }
 
-a{
-    text-decoration: none !important;
-    color: grey;
-}
+
 
 .ref, .ref>a{
    font-size: 12px;
@@ -22,22 +19,75 @@ a{
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+.ref>a{
+    font-weight: bold;
+}
+
+
 .title>a{
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
 }
+
 
 .bottom{
-    font-size: 13px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
 }
 
-.bottom, .bottom>span{
-    display: flex;
+
+.bottom>span{
+    font-size: 12px;
 }
 
-.bottom>span>img{
+.bottom>span>span>img, .bottom>span>span>a>img, .thumb>img{
+    vertical-align: middle;
+    display: inline-block;
+    height: 25px;
+}
+
+
+.bottom>span>span{
+    margin-right: 15px;
+}
+
+
+
+.ref, .title{
+    margin: 20px 0 20px 0;
+}
+
+
+
+.thumb>a>img{
+    height: 100px;
+    width:150px;
+    border-radius:  5%;
+}
+
+
+.thumb{
     float: right;
-    height: 18px;
+    justify-content: center;
+}
+
+
+
+a{
+    text-decoration: none !important;
+    color: grey;
+}
+
+
+a:hover{
+    color: red;
+}
+
+.thumb>a>img:hover{
+   border-left: outset 5px red;
 }

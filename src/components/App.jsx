@@ -17,7 +17,7 @@ class App extends Component {
     const get = await api.json();
     const data = await get.data.children.map(data => data.data)
     this.setState({stories : data, keyword:key})
-    console.log(this.state.stories[2])
+    console.log(this.state.stories)
   }
 
   render() {
