@@ -16,7 +16,6 @@ class App extends Component {
     const get = await api.json();
     const data = await get.data.children.map(data => data.data);
     this.setState({stories : data});
-    console.log(this.state.stories);
   }
 
   home = async() =>{
