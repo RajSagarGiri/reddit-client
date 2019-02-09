@@ -13,7 +13,7 @@ class App extends Component {
   action = async (event) => {
     event.preventDefault();
     const key = event.target.elements.key.value;
-    const api = await fetch(`http://www.reddit.com/search.json?q=${key}`);
+    const api = await fetch(`http://www.reddit.com/search.json?q=${key}&limit=50`);
     const get = await api.json();
     const data = await get.data.children.map(data => data.data)
     this.setState({stories : data, keyword:key})
@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <div >
         <Header action={this.action}/>
-        {this.state.stories.length>0 &&<div style={{margin:'0 100px 0  100px'}}>
+        {this.state.stories.length>0 &&<div style={{margin:'20px 10vw 20px  10vw'}}>
          {val}
          </div>}
       </div>

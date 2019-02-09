@@ -1,10 +1,12 @@
 
 .content{
-    margin:  7.5px 0 7.5px 0 ;
+    margin:  10px 0 10px 0 ;
     padding: 30px ;
     border:  0.01px solid silver;
-    height: 140px;
+    height: auto;
     background-color: white;
+    overflow:hidden;
+    text-overflow: ellipsis; 
 }
 
 .content:hover{
@@ -12,8 +14,7 @@
 }
 
 
-
-.ref, .ref>a{
+.ref, .ref>a, .thumb>a{
    font-size: 12px;
    color: black;
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,6 +31,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     font-weight: bolder;
+    text-overflow: ellipsis;
 }
 
 
@@ -37,12 +39,12 @@
     line-height: 20px;
     display: inline-block;
     vertical-align: middle;
-    margin: 10px;
 }
 
 
 .bottom>span{
     font-size: 12px;
+    font-weight: 600;
 }
 
 .bottom>span>span>img, .bottom>span>span>a>img, .thumb>img{
@@ -53,12 +55,12 @@
 
 
 .bottom>span>span{
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 
 
-.ref, .title{
+.ref{
     margin: 20px 0 20px 0;
 }
 
@@ -66,7 +68,7 @@
 
 .thumb>a>img{
     height: 100px;
-    width:150px;
+    width:130px;
     border-radius:  5%;
 }
 
@@ -74,6 +76,8 @@
 .thumb{
     float: right;
     justify-content: center;
+    display: flex;
+    align-content: center;
 }
 
 
@@ -91,3 +95,10 @@ a:hover{
 .thumb>a>img:hover{
    border-left: outset 5px red;
 }
+
+
+.text{
+    margin-right:  20vw;
+    padding:  15px;
+}
+
