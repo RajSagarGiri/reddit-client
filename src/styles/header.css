@@ -1,0 +1,20 @@
+.head {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+}
+
+img {
+  margin: 15px 10vw 15px 15px;
+  height: 43.5px;
+}
+
+input {
+  margin-left: 25vw;
+}
+
+input:hover {
+  border: 1.2px solid blue;
+  outline: none;
+}

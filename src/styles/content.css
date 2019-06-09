@@ -1,0 +1,109 @@
+
+.content{
+    margin:  2.5px 0 2.5px 0 ;
+    padding: 30px ;
+    border:  0.01px;
+    height: auto;
+    background-color: white;
+    overflow:hidden;
+    text-overflow: ellipsis; 
+}
+
+.content:hover{
+    border:  0.5px solid red;
+}
+
+
+.ref, .ref>a, .thumb>a{
+   font-size: 12px;
+   color: black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.ref>a{
+    font-weight: bold;
+}
+
+
+.title>a{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bolder;
+    text-overflow: ellipsis;
+}
+
+
+.bottom{
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.bottom>span{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bottom>span>span>img, .bottom>span>span>a>img, .thumb>img{
+    vertical-align: middle;
+    display: inline-block;
+    height: 22px;
+}
+
+
+.bottom>span>span{
+    margin-right: 35px;
+}
+
+
+
+.ref{
+    margin: 20px 10px 20px 0;
+}
+
+
+
+.thumb>a>img{
+    height: 100px;
+    width:130px;
+    border-radius:  5%;
+    padding: 10px;
+}
+
+
+.thumb{
+    float: right;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+
+
+a{
+    text-decoration: none !important;
+    color: grey;
+}
+
+
+a:hover{
+    color: red;
+}
+
+.thumb>a>img:hover{
+   border-top: outset 5px red;
+   border-bottom: outset 5px red;
+}
+
+
+.text{
+    margin-right:  20vw;
+    padding:  10px;
+}
+
+.title{
+    margin: 40px 0 20px 0;
+}
