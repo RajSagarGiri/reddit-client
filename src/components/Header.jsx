@@ -4,7 +4,7 @@ import Select from 'react-select';
 
 const Header = ({ handleChange, options }) => (
   <div className='head'>
-    <a href='/'>
+    <a href='/reddit-client/'>
       <img src='header.png' alt='Reddit' />
     </a>
     <Select
