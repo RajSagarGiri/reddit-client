@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/header.css';
 import Select from 'react-select';
+import '../styles/header.css';
 
 const Header = ({ handleChange, options }) => (
   <div className='head'>
-    <a href='/reddit-client/'>
+    <a href='/reddit-client'>
       <img src='header.png' alt='Reddit' />
     </a>
     <Select
