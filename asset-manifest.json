@@ -1,16 +1,18 @@
 {
-  "main.css": "/reddit-client/static/css/main.06d7cdef.chunk.css",
-  "main.js": "/reddit-client/static/js/main.95e0ac16.chunk.js",
-  "main.js.map": "/reddit-client/static/js/main.95e0ac16.chunk.js.map",
-  "static/js/1.588d3689.chunk.js": "/reddit-client/static/js/1.588d3689.chunk.js",
-  "static/js/1.588d3689.chunk.js.map": "/reddit-client/static/js/1.588d3689.chunk.js.map",
-  "runtime~main.js": "/reddit-client/static/js/runtime~main.4a1ab664.js",
-  "runtime~main.js.map": "/reddit-client/static/js/runtime~main.4a1ab664.js.map",
-  "static/media/up.png": "/reddit-client/static/media/up.9335e085.png",
-  "static/media/bug.gif": "/reddit-client/static/media/bug.0b07ad7b.gif",
-  "static/media/spinner.gif": "/reddit-client/static/media/spinner.0d0345f6.gif",
-  "static/css/main.06d7cdef.chunk.css.map": "/reddit-client/static/css/main.06d7cdef.chunk.css.map",
-  "index.html": "/reddit-client/index.html",
-  "precache-manifest.a313eedad295e74a643391e0ef747bd4.js": "/reddit-client/precache-manifest.a313eedad295e74a643391e0ef747bd4.js",
-  "service-worker.js": "/reddit-client/service-worker.js"
+  "files": {
+    "main.css": "/reddit-client/static/css/main.5f42d8ed.chunk.css",
+    "main.js": "/reddit-client/static/js/main.3465457d.chunk.js",
+    "main.js.map": "/reddit-client/static/js/main.3465457d.chunk.js.map",
+    "runtime-main.js": "/reddit-client/static/js/runtime-main.2b54796e.js",
+    "runtime-main.js.map": "/reddit-client/static/js/runtime-main.2b54796e.js.map",
+    "static/js/2.0bc73698.chunk.js": "/reddit-client/static/js/2.0bc73698.chunk.js",
+    "static/js/2.0bc73698.chunk.js.map": "/reddit-client/static/js/2.0bc73698.chunk.js.map",
+    "index.html": "/reddit-client/index.html",
+    "precache-manifest.5645004959185ff20bce42aa4a7954a8.js": "/reddit-client/precache-manifest.5645004959185ff20bce42aa4a7954a8.js",
+    "service-worker.js": "/reddit-client/service-worker.js",
+    "static/css/main.5f42d8ed.chunk.css.map": "/reddit-client/static/css/main.5f42d8ed.chunk.css.map",
+    "static/media/bug.gif": "/reddit-client/static/media/bug.0b07ad7b.gif",
+    "static/media/spinner.gif": "/reddit-client/static/media/spinner.0d0345f6.gif",
+    "static/media/up.png": "/reddit-client/static/media/up.9335e085.png"
+  }
 }
